@@ -11,6 +11,34 @@
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/home');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+Route::get('/case-studies', function () {
+    return view('case-studies');
+});
+
+Route::get('/meet-the-team', function () {
+    return view('meet-the-team');
+});
+
+Route::get('/digital-insight', function () {
+    return view('digital-insight');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
