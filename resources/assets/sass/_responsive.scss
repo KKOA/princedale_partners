@@ -218,7 +218,7 @@
 	
 	#nav.js { display: none; }
 
-	#menu { position: absolute; top: 30px; right: 10%; color: #fff; font-size: 20px; }
+	#menu { position: absolute; top: 30px; right: 10%; color: $white; font-size: 20px; }
 	#menu:hover { opacity: 0.6; }
 	
 	#nav { 
@@ -226,22 +226,22 @@
 		top: 90px;
 		width: 100%;
 		margin: 0; padding: 0; 
-		border-bottom: #40B2A7 solid 3px;
-		background: #fff;			
+		border-bottom: $turquoise solid 3px;
+		background: $white;			
 	}
 	
 	#nav li { width: 80%; margin-left: 10%; padding-bottom: 15px; }
 	#nav li:first-child { padding-top: 20px; }
 	#nav li:last-child { padding-bottom: 25px; }
 	
-	#nav li a { color: #4D4E50; }
-	#nav li a:hover { color: #40B2A7; }
-	#nav li a.active { color: #40B2A7; }
+	#nav li a { color: $dark-grey; }
+	#nav li a:hover { color: $turquoise; }
+	#nav li a.active { color: $turquoise; }
 	
 	.mobile-footer { 
 		float: left; clear: left; 
 		width: 100%;
-		background: #40B2A7;
+		background: $turquoise;
 		padding: 5% 0 7.5% 0;
 	}
 	
@@ -446,7 +446,7 @@ and (orientation : landscape) {
 		position: fixed; top: 0; left: 0; 
 		width: 25%;
 		padding-top: 30px;	
-		background: #40B2A7;
+		background: $turquoise;
 		height: 100%;
 		display: block;
 		z-index: 1000;
@@ -484,7 +484,7 @@ and (orientation : landscape) {
 		width: 80%; 
 		float: left; clear: left;
 		position: static;
-		background: #40B2A7;
+		background: $turquoise;
 		border-bottom: none;
 		z-index: 1;	
 		padding-bottom: 0;	
@@ -494,12 +494,12 @@ and (orientation : landscape) {
 	
 	#nav li a {
 		font-size: 0.75em;
-		color: #fff;
+		color: $white;
 		font-weight: 400;
 	}
 	
-	#nav li a:hover { color: #4D4E50; }
-	#nav li a.active { color: #4D4E50; }
+	#nav li a:hover { color: $dark-grey; }
+	#nav li a.active { color: $dark-grey; }
 	
 	
 	.desktop-footer {  
@@ -532,15 +532,15 @@ and (orientation : landscape) {
 		font-size: 16px;
 		margin-bottom: 4px;
 		margin-top: 5%;
-		color: #fff;
+		color: $white;
 	}
 	
 	.phone-landscape-hide { display: none; }
 	
 	.phone-landscape h4, .phone-landscape p { width: 100%; }
 	.phone-landscape p { font-weight: 400; }
-	.phone-landscape p a { color: #fff; }
-	.phone-landscape p a:hover { color: #4D4E50; }
+	.phone-landscape p a { color: $white; }
+	.phone-landscape p a:hover { color: $dark-grey; }
 	
 	.contact-image .span_3 { width: 80%; }	
 	.contact-image .span_3 br { display: none; }
@@ -659,13 +659,13 @@ and (orientation : portrait) {
 		font-size: 1em;
 		margin-bottom: 0.25em;
 		margin-top: 5%;
-		color: #fff;
+		color: $white;
 	}
 	
 	.phone-landscape h4, .phone-landscape p { width: 100%; font-weight: 400; }
 
-	.phone-landscape p a, .phone-landscape p span { color: #fff; }
-	.phone-landscape p a:hover { color: #4D4E50; }
+	.phone-landscape p a, .phone-landscape p span { color: $white; }
+	.phone-landscape p a:hover { color: $dark-grey; }
 	
 
 

@@ -10563,7 +10563,7 @@ body {
   left: 0;
   width: 17.5%;
   padding-top: 4%;
-  background: #40B2A7;
+  background: #40b2a7;
   height: 100%;
   display: block;
   z-index: 1000;
@@ -10578,7 +10578,7 @@ body {
 }
 
 .contact-content {
-  background: #40B2A7;
+  background: #40b2a7;
 }
 
 .hero {
@@ -10587,16 +10587,6 @@ body {
   height: 100%;
   overflow: hidden;
   position: relative;
-}
-
-.hero .section {
-  position: absolute;
-  top: 6%;
-}
-
-.hero .section p,
-.study-image p {
-  color: #fff;
 }
 
 .study-image {
@@ -10615,7 +10605,7 @@ h1 {
 
 h2 {
   font-family: 'Varela Round', sans-serif;
-  color: #40B2A7;
+  color: #40b2a7;
   font-size: 18px;
   margin-bottom: 4px;
 }
@@ -10651,11 +10641,11 @@ p span {
   padding: 10px 30px;
   border-radius: 10px;
   /* future proofing */
-  border: 1px solid #40B2A7;
+  border: 1px solid #40b2a7;
 }
 
 .button:hover {
-  background: #40B2A7;
+  background: #40b2a7;
 }
 
 /* Logos on Hero Images */
@@ -10667,72 +10657,9 @@ p span {
   height: auto;
 }
 
-.hero .desktop-logos .section {
-  position: static;
-  max-width: 1050px;
-}
-
 /*----------------------------------------------------------------------------------
 	Grid Column Set-up
 ----------------------------------------------------------------------------------*/
-
-.section {
-  clear: both;
-  padding: 0px;
-  margin: 0px;
-  width: 80%;
-  margin-left: 10%;
-  float: left;
-}
-
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-
-.group:after {
-  clear: both;
-}
-
-.group {
-  zoom: 1;
-  /* For IE 6/7 */
-}
-
-.col {
-  display: block;
-  float: left;
-  margin: 1% 0 1% 4%;
-}
-
-.col:first-child {
-  margin-left: 0;
-}
-
-.span_6 {
-  width: 100%;
-}
-
-.span_5 {
-  width: 82.66%;
-}
-
-.span_4 {
-  width: 65.33%;
-}
-
-.span_3 {
-  width: 48%;
-}
-
-.span_2 {
-  width: 30.66%;
-}
-
-.span_1 {
-  width: 13.33%;
-}
 
 /*----------------------------------------------------------------------------------
 	Left Sidebar
@@ -10848,7 +10775,7 @@ p span {
 ----------------------------------------------------------------------------------*/
 
 .home-image {
-  background: url(/img/night-cycling.jpg) no-repeat;
+  background: url(/img/night-cycling-min.jpg) no-repeat;
   background-size: cover;
   background-position: 0 50%;
 }
@@ -10862,7 +10789,7 @@ p span {
 ----------------------------------------------------------------------------------*/
 
 .about-image {
-  background: url(/img/about-us.jpg) no-repeat;
+  background: url(/img/about-us-min.jpg) no-repeat;
   background-size: cover;
   background-position: 0 50%;
 }
@@ -10922,7 +10849,7 @@ p span {
 ----------------------------------------------------------------------------------*/
 
 .team-image {
-  background: url(/img/who-we-really-are.jpg) no-repeat;
+  background: url(/img/who-we-really-are-min.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -10946,7 +10873,7 @@ p span {
   bottom: 0;
   left: 0;
   display: block;
-  background: #40B2A7;
+  background: #40b2a7;
 }
 
 .profile div h3 {
@@ -10962,7 +10889,7 @@ p span {
 ----------------------------------------------------------------------------------*/
 
 .case-study-image {
-  background: url(/img/job-done.jpg) no-repeat;
+  background: url(/img/job-done-min.jpg) no-repeat;
   background-size: cover;
   background-position: 0 50%;
 }
@@ -11069,7 +10996,7 @@ p span {
 }
 
 .col p a:hover {
-  color: #40B2A7;
+  color: #40b2a7;
 }
 
 .moves {
@@ -11134,7 +11061,7 @@ p span {
 ----------------------------------------------------------------------------------*/
 
 .contact-image {
-  background: url(/img/contact-us.jpg) no-repeat;
+  background: url(/img/contact-us-min.jpg) no-repeat;
   background-size: cover;
   background-position: 0 50%;
 }
@@ -11158,7 +11085,7 @@ p span {
 }
 
 .phone-landscape-hide a:hover {
-  color: #40B2A7;
+  color: #40b2a7;
 }
 
 /*----------------------------------------------------------------------------------
@@ -11657,7 +11584,7 @@ p span {
     width: 100%;
     margin: 0;
     padding: 0;
-    border-bottom: #40B2A7 solid 3px;
+    border-bottom: #40b2a7 solid 3px;
     background: #fff;
   }
 
@@ -11680,18 +11607,18 @@ p span {
   }
 
   #nav li a:hover {
-    color: #40B2A7;
+    color: #40b2a7;
   }
 
   #nav li a.active {
-    color: #40B2A7;
+    color: #40b2a7;
   }
 
   .mobile-footer {
     float: left;
     clear: left;
     width: 100%;
-    background: #40B2A7;
+    background: #40b2a7;
     padding: 5% 0 7.5% 0;
   }
 
@@ -12172,7 +12099,7 @@ p span {
     left: 0;
     width: 25%;
     padding-top: 30px;
-    background: #40B2A7;
+    background: #40b2a7;
     height: 100%;
     display: block;
     z-index: 1000;
@@ -12220,7 +12147,7 @@ p span {
     float: left;
     clear: left;
     position: static;
-    background: #40B2A7;
+    background: #40b2a7;
     border-bottom: none;
     z-index: 1;
     padding-bottom: 0;
@@ -12517,4 +12444,282 @@ p span {
 }
 
 /* End of iPad Portrait Only */
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.col-md-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+.dropdown-menu {
+  background: #4D4E50;
+  top: 80%;
+  padding: 0;
+  right: 3%;
+  left: auto;
+}
+
+.dropdown-menu a {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.navbar-light {
+  background: #40b2a7 !important;
+}
+
+.navbar {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar a,
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 400;
+}
+
+.logo {
+  margin: 0;
+  max-width: 210px;
+  position: static;
+  max-width: 25%;
+  width: auto;
+  margin-left: 10px;
+}
+
+.navbar button {
+  margin-left: 20px;
+  background: #fff;
+}
+
+.navbar a:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: grey;
+}
+
+.navbar a:hover,
+.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #323232;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    border: solid 1px #000;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    background: #fff;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.active:hover {
+    background: black;
+    color: #fff;
+  }
+}
+
+.mainnav {
+  background: #40b2a7;
+  width: 100%;
+}
+
+.mainnav #nav {
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hero .section {
+  position: static;
+  min-height: 400px;
+}
+
+.hero {
+  padding: 20px;
+  min-height: 400px;
+}
+
+.hero p,
+.hero a,
+.hero span {
+  color: #fff;
+}
+
+.hero a.button:hover {
+  color: #fff;
+  background: #40b2a7;
+}
+
+.hero a:hover,
+.hero a:hover span {
+  color: lightsteelblue;
+}
+
+.hero a img:hover {
+  opacity: 0.7;
+}
+
+.content {
+  min-height: initial;
+}
+
+.cover-text {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cover-text h1,
+.cover-text p {
+  font-weight: bold;
+  text-shadow: 1px 1px #000, 2px 2px #000;
+}
+
+.cover-text a {
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.cover-text a:hover {
+  color: #000;
+  text-shadow: 1px 1px #000, 2px 2px #000;
+}
+
+.team {
+  margin-top: 40px;
+}
+
+.about-section {
+  margin-top: 40px;
+}
+
+.bx-wrapper {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.login,
+.register {
+  background: url(/img/handshake.jpeg) no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+  min-height: 500px;
+}
+
+.card-header {
+  background: #4D4E50;
+  color: white;
+}
+
+.card h1,
+.card h2 {
+  text-align: center;
+}
+
+.card h2 {
+  background: #4D4E50;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+}
+
+.fieldname {
+  font-weight: bold;
+}
+
+footer {
+  background: #4D4E50;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer p,
+footer a,
+footer h4 {
+  color: #fff;
+  text-align: center;
+}
+
+footer .headhunter-advisor {
+  width: 80%;
+  height: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+footer .mysocial img {
+  width: auto;
+  display: inline-block;
+  margin: auto;
+  padding: 2%;
+  float: none;
+  opacity: 0.5;
+}
+
+footer .mysocial img:hover {
+  opacity: 1;
+}
+
+footer a {
+  letter-spacing: 1.5px;
+}
+
+footer a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+footer .copyright {
+  margin-top: 0;
+  margin-left: 0;
+  padding: 5px 0;
+  float: none;
+}
 

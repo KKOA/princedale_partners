@@ -22,7 +22,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: left;
-	color: #4D4E50;  
+	color: $dark-grey;  
 	}
 	
 a { text-decoration: none; }	
@@ -52,14 +52,14 @@ img { width: 100%; display: block; height: auto; }
 
 html, body { height: 100%; width: 100%; }
 
-body { width: 100%; background: #fff; font-size: 100%; line-height: 1.2em; }
+body { width: 100%; background: $white; font-size: 100%; line-height: 1.2em; }
 
 
 .head { 
 	position: fixed; top: 0; left: 0; 
 	width: 17.5%;
 	padding-top: 4%;	
-	background: #40B2A7;
+	background: $turquoise;
 	height: 100%;
 	display: block;
 	z-index: 1000;
@@ -73,7 +73,7 @@ body { width: 100%; background: #fff; font-size: 100%; line-height: 1.2em; }
 	margin-left: 17.5%;
 }
 
-.contact-content { background: #40B2A7; }
+.contact-content { background: $turquoise; }
 
 .hero { 
 	float: left;
@@ -83,9 +83,9 @@ body { width: 100%; background: #fff; font-size: 100%; line-height: 1.2em; }
 	position: relative;		
 }
 
-.hero .section { position: absolute; top: 6%; }
+// .hero .section { position: absolute; top: 6%; }
 
-.hero .section p, .study-image p { color: #fff; }
+// .hero .section p, .study-image p { color: $white; }
 
 .study-image { 
 	min-height: 1px;
@@ -95,19 +95,19 @@ body { width: 100%; background: #fff; font-size: 100%; line-height: 1.2em; }
 
 h1 {
 	font-family: 'Varela Round', sans-serif;
-	color: #fff;
+	color: $white;
 	font-size: 3.25em; line-height: 1em;
 	margin-bottom: 0.2em;
 }
 
 h2 {
 	font-family: 'Varela Round', sans-serif;
-	color: #40B2A7;
+	color: $turquoise;
 	font-size: 18px;
 	margin-bottom: 4px;
 }
 
-.desktop-logos h2, .phone-logos h2, .study-logo-wrap h2 { color: #fff; }
+.desktop-logos h2, .phone-logos h2, .study-logo-wrap h2 { color: $white; }
 
 p {
 	font-size: 0.8125em;
@@ -115,24 +115,24 @@ p {
 	margin-bottom: 0.5em;
 }
 
-.case-study-line-hide { color: #fff; }
+.case-study-line-hide { color: $white; }
 
 p span { font-weight: 600; }
 
 .button {
 	float: left; clear: left;
 	margin-top: 4%;	
-	color: #fff;
+	color: $white;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 0.875em; line-height: 1em;
 	padding: 10px 30px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px; /* future proofing */
-	border: 1px solid #40B2A7;	
+	border: 1px solid $turquoise;	
 }
 
-.button:hover { background: #40B2A7; }
+.button:hover { background: $turquoise; }
 
 
 /* Logos on Hero Images */
@@ -144,43 +144,43 @@ p span { font-weight: 600; }
 	height: auto;	
 }
 
-.hero .desktop-logos .section {
-	position: static;
-	max-width: 1050px;
-}
+// .hero .desktop-logos .section {
+// 	position: static;
+// 	max-width: 1050px;
+// }
 
 /*----------------------------------------------------------------------------------
 	Grid Column Set-up
 ----------------------------------------------------------------------------------*/
 
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-	width: 80%;
-	margin-left: 10%;
-	float: left;
-}
+// .section {
+// 	clear: both;
+// 	padding: 0px;
+// 	margin: 0px;
+// 	width: 80%;
+// 	margin-left: 10%;
+// 	float: left;
+// }
 
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
+// .group:before,
+// .group:after { content:""; display:table; }
+// .group:after { clear:both;}
+// .group { zoom:1; /* For IE 6/7 */ }
 
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 4%;
-}
+// .col {
+// 	display: block;
+// 	float:left;
+// 	margin: 1% 0 1% 4%;
+// }
 
-.col:first-child { margin-left: 0; }
+// .col:first-child { margin-left: 0; }
 
-.span_6 { width: 100%; }
-.span_5 { width: 82.66%; }
-.span_4 { width: 65.33%; }
-.span_3 { width: 48%; }
-.span_2 { width: 30.66%; }
-.span_1 { width: 13.33%; }
+// .span_6 { width: 100%; }
+// .span_5 { width: 82.66%; }
+// .span_4 { width: 65.33%; }
+// .span_3 { width: 48%; }
+// .span_2 { width: 30.66%; }
+// .span_1 { width: 13.33%; }
 
 
 
@@ -209,14 +209,14 @@ p span { font-weight: 600; }
 
 #nav li a {
 	font-size: 16px;
-	color: #fff;
+	color: $white;
 	font-weight: 400;
 }
 
-#nav li a:hover { color: #4D4E50; }
-#nav li a.active { color: #4D4E50; }
+#nav li a:hover { color: $dark-grey; }
+#nav li a.active { color: $dark-grey; }
 
-.desktop-footer h4, .desktop-footer p, .mobile-footer h4, .mobile-footer p { color: #fff; }
+.desktop-footer h4, .desktop-footer p, .mobile-footer h4, .mobile-footer p { color: $white; }
 
 .desktop-footer h4 {
 	font-family: 'Varela Round', sans-serif; 
@@ -227,8 +227,8 @@ p span { font-weight: 600; }
 
 .desktop-footer p { margin-bottom: 7px; }
 
-.desktop-footer p a, .mobile-footer p a { color: #fff; }
-.desktop-footer p a:hover, .mobile-footer p a:hover { color: #4D4E50; }
+.desktop-footer p a, .mobile-footer p a { color: $white; }
+.desktop-footer p a:hover, .mobile-footer p a:hover { color: $dark-grey; }
 
 .desktop-footer { 
 	position: absolute; left: 15%; bottom: 10%;	
@@ -254,7 +254,7 @@ p span { font-weight: 600; }
 ----------------------------------------------------------------------------------*/
 
 .home-image {
-	background: url(/img/night-cycling.jpg) no-repeat;
+	background: url(/img/night-cycling-min.jpg) no-repeat;
 	background-size: cover;
 	background-position: 0 50%;
 }
@@ -266,7 +266,7 @@ p span { font-weight: 600; }
 ----------------------------------------------------------------------------------*/
 
 .about-image {
-	background: url(/img/about-us.jpg) no-repeat;
+	background: url(/img/about-us-min.jpg) no-repeat;
 	background-size: cover;
 	background-position: 0 50%;
 }
@@ -313,7 +313,7 @@ p span { font-weight: 600; }
 ----------------------------------------------------------------------------------*/
 
 .team-image {
-	background: url(/img/who-we-really-are.jpg) no-repeat;
+	background: url(/img/who-we-really-are-min.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
@@ -327,11 +327,11 @@ p span { font-weight: 600; }
 .profile div span { 
 	position: absolute; bottom: 0; left: 0;
 	display: block;
-	background: #40B2A7;	
+	background: $turquoise;	
 }
 
 .profile div h3 { 
-	color: #fff;
+	color: $white;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 21px; line-height: 21px;
 	padding: 8px 15px 8px 15px;	
@@ -342,7 +342,7 @@ p span { font-weight: 600; }
 ----------------------------------------------------------------------------------*/
 
 .case-study-image {
-	background: url(/img/job-done.jpg) no-repeat;
+	background: url(/img/job-done-min.jpg) no-repeat;
 	background-size: cover;
 	background-position: 0 50%;
 }
@@ -402,12 +402,12 @@ p span { font-weight: 600; }
 .logos div a {
 	font-size: 0.8125em;
 	line-height: 1em;
-	color: #fff;
+	color: $white;
 }
 
 .logos div a img { margin-bottom: 2.5%; }
 
-.logos div a span { font-family: 'Varela Round', sans-serif; color: #fff; font-size: 0.95em; } 
+.logos div a span { font-family: 'Varela Round', sans-serif; color: $white; font-size: 0.95em; } 
 
 .logos div a:hover, .logos div a img:hover { opacity: 0.6; }
 
@@ -426,7 +426,7 @@ p span { font-weight: 600; }
 
 .insight-image .study-title p { width: 60%; margin-left: 20%; font-size: 0.8125em; line-height: 1.6154em;  }
 
-.col p a:hover { color: #40B2A7; }
+.col p a:hover { color: $turquoise; }
 
 .moves {
 	list-style-type: none;
@@ -458,7 +458,7 @@ p span { font-weight: 600; }
 ----------------------------------------------------------------------------------*/
 
 .contact-image {
-	background: url(/img/contact-us.jpg) no-repeat;
+	background: url(/img/contact-us-min.jpg) no-repeat;
 	background-size: cover;
 	background-position: 0 50%;
 }
@@ -466,9 +466,9 @@ p span { font-weight: 600; }
 .phone-landscape { display: none; }
 
 .phone-landscape-hide { float: left; margin: 5% 0 5% 0; }
-.phone-landscape-hide span { color: #fff; font-weight: 600; }
-.phone-landscape-hide a { color: #fff; }
-.phone-landscape-hide a:hover { color: #40B2A7; }
+.phone-landscape-hide span { color: $white; font-weight: 600; }
+.phone-landscape-hide a { color: $white; }
+.phone-landscape-hide a:hover { color: $turquoise; }
 
 
 /*----------------------------------------------------------------------------------
