@@ -59,10 +59,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
 
-# PP
+# Princedale partners
 
-Constructed a recruitment site using following technology:
-- Laravel
+I constructed a recruitment site using the following technology:
+- Laravel 5
 - Bootstrap 4
 - CSS(SCSS)
 - MySQL
@@ -75,13 +75,13 @@ Constructed a recruitment site using following technology:
 -->
 
 ## Set up Application
-This installation assumes you have following 
+This application assumes that you have the following installed:
 - PHP 7
 - Composer
 - MySQL
-installed.
 
-In the terminal enter the following
+
+In the terminal, enter the following:
 ```
 git clone https://github.com/KKOA/princedale_partners
 cd princedale_partners
@@ -90,22 +90,22 @@ php artisan key:generate
 npm install
 ```
 
-Next copy the .env.example as .env.
+Next, copy the '.env.example' as '.env'.
 
-Change the following line to match your database configuration in .env
+Change the following lines in .env to match your database configuration 
 ```
 DB_DATABASE=homestead
 DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
 
-Open a mysql connection and create a database with the same name as the value of DB_DATABASE in your .env file.
+Open a MySQL connection and create a database with the same name as the value of DB_DATABASE in your .env file.
 
-In the terminal enter following
+In the terminal, enter the following:
 ```
 php artisan migrate
 ```
-This will setup the migrations and database.
+This will setup the migrations and the database.
 
 ## Run Application
 ```
@@ -113,11 +113,14 @@ cd princedale_partners
 php artisan serve
 ```
 
+## Assumptions
+- At bare minimum both the sample pages and final project pages must share the same content.
+
 
 ## Future Implementation
-- Add jobseeker to upload CV & image
+- Allow jobseeker to upload CV & image
 - Enable jobseeker to delete his own account
 - Add admin account for editing website
-- Enable main page to be editable by admin
-- Store case studies in database, rather display hard code copy
-- Display user image on main navigation when logged
+- Enable main pages to be editable by admin
+- Store case studies in database, rather than display hard code copy
+- Display user image on main navigation when logged in
