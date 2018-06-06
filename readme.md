@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<!-- <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -57,4 +57,58 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+
+# PP
+
+Constructed a recruitment site using following technology:
+- Laravel
+- Bootstrap 4
+- CSS(SCSS)
+- MySQL
+
+<!-- ## Screen Shots
+![Home Screen](https://github.com/KKOA/princedale_partners/blob/master/home.png)
+
+<!--
+ Live Version 
+-->
+
+## Set up Application
+This installation assumes you have following 
+- PHP 7
+- Composer
+- MySQL
+installed.
+
+In the terminal enter the following
+```
+git clone https://github.com/KKOA/princedale_partners
+cd princedale_partners
+composer update
+php artisan key:generate
+npm install
+```
+
+Next copy the .env.example as .env.
+
+Change the following line to match your database configuration in .env
+```
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
+
+Open a mysql connection and create a database with the same name as the value of DB_DATABASE in your .env file.
+
+In the terminal enter following
+```
+php artisan migrate
+```
+This will setup the migrations and database.
+
+## Run Application
+```
+cd princedale_partners
+php artisan serve
+```
