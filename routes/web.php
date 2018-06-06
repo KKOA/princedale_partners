@@ -19,26 +19,26 @@ Route::get('/', function () {
     return redirect('/home');
 });
 
-Route::get('/home', function () {
-    return view('home');
+Route::get('/home', 'RootController@index');
+
+Route::get('/about-us', 'AboutController@index')->name('about.index');
+
+Route::get('/meet-the-team', 'AboutController@team')->name('about.team');
+
+Route::get('/case-studies', 'CaseStudyController@index')->name('case.index');
+
+// Redrirct case pages to Maintenacne
+Route::get('/case-studies/{name}', function () {
+    return view('Maintenacne');
 });
 
-Route::get('/about-us', function () {
-    return view('about-us');
+// Redrirct digitalinsight to Maintenacne
+Route::get("/digitalinsight", function () {
+    return view('maintenacne');
 });
 
-Route::get('/case-studies', function () {
-    return view('case-studies');
-});
+Route::get('/contact', 'RootController@contact');
 
-Route::get('/meet-the-team', function () {
-    return view('meet-the-team');
-});
+Auth::routes();
 
-Route::get('/digital-insight', function () {
-    return view('digital-insight');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/dashboard', 'DashBoardController@index')->name('user.dashboard');
