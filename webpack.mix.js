@@ -16,4 +16,5 @@ mix
     .js('resources/assets/js/master.js', 'public/js')
 //    .sass('resources/assets/sass/app.scss', 'public/css')
     .sass('resources/assets/sass/master.scss', 'public/css')
+    // .sass('resources/assets/sass/master2.scss', 'public/css')
    ;
