@@ -67,7 +67,7 @@ Constructed a recruitment site using following technology:
 - CSS(SCSS)
 - MySQL
 
-<!-- ## Screen Shots
+## Screen Shots
 ![Home Screen](https://github.com/KKOA/princedale_partners/blob/master/home.png)
 
 <!--
