@@ -112,3 +112,12 @@ This will setup the migrations and database.
 cd princedale_partners
 php artisan serve
 ```
+
+
+## Future Implementation
+- Add jobseeker to upload CV & image
+- Enable jobseeker to delete his own account
+- Add admin account for editing website
+- Enable main page to be editable by admin
+- Store case studies in database, rather display hard code copy
+- Display user image on main navigation when logged
